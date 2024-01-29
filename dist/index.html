@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Restaraunt page</title>
+</head>
+<body>
+    <header>
+    
+        <nav>
+            <div class="tab">
+                <button class="tablinks" type="button" onclick = "openPage(event, 'home')">Home</button>
+                <button class="tablinks" type="button" onclick="openPage(event, 'menu')">Menu</button>
+                <button class="tablinks" type="button" onclick="openPage(event, 'about')">About</button>
+            </div>
+
+        </nav>
+    </header>
+    <!-- TAB CONTENT -->
+    
+    <div id = "content">
+        <div id = "home" class="tabcontent">
+            
+        </div>
+        <div id = "menu" class="tabcontent" ></div> 
+        <div id = "about" class="tabcontent">
+        </div>
+
+    </div>
+   
+    <!-- <div id = "content">
+        <h2>"We love pasta!"</h2>
+        <p>Hands down, one of the best italian restaraunts in the area!
+        </p>
+        <img src = "../src/restaraunt.jpg">
+        
+    </div> -->
+   
+    <script src="main.js"></script>
+    
+</body>
+</html>
